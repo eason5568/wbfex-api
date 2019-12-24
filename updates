@@ -1,3 +1,12 @@
+
+get_order_info
+return status.
+status==0 初始订单，未成交未进入盘口;
+status==1 新订单,未成交进入盘口;
+revision to "初始订单，正常状态，进入盘口", 同status==1相同;
+
+2019/12/24
+
 HTTP url update:
 openapi.wbf.info
 
